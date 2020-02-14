@@ -30,7 +30,7 @@
 
 
   - name: Copy Devops Project War Files
-    copy: src=/var/lib/jenkins/workspace/AnsibleInfra/target/devops-0.0.1-SNAPSHOT.war dest=/opt/SP/apps/tomcat/webapps/ mode=0644
+    copy: src=/home/mtadminnuvelabs/jFrogArtifacte/devops-0.0.1-SNAPSHOT.war dest=/opt/SP/apps/tomcat/webapps/ mode=0644
 
   handlers:
   - name: Restart Tomcat
