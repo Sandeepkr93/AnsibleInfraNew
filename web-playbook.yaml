@@ -30,7 +30,7 @@
 
 
   - name: Copy Devops Project War Files
-    copy: src=/home/mtadminnuvelabs/jFrogArtifacte/*.war dest=/opt/SP/apps/tomcat/webapps/ mode=0644
+    copy: src=/home/mtadminnuvelabs/jFrogArtifacte/petclinic.war dest=/opt/SP/apps/tomcat/webapps/ mode=0644
 
   handlers:
   - name: Restart Tomcat
